@@ -3,7 +3,10 @@
 body {
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 18px;
-  background-color: hsl(185, 75%, 39%);
+  background: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right calc(50vw + 15%) bottom calc(65vh - 15vw), left calc(41vw + 25%) top calc(72vh - 10vw);
+  background-color: hsl(185, 75%, 39%); 
 }
 
 .container {
@@ -43,13 +46,9 @@ body {
 }
 
 .profile-img img {
-  display: inline;
-  width: auto;
-  height: auto;
+  text-align: center;
   border-radius: 100%;
   border:solid #ffffff 5px;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .top-bg img {
