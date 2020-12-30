@@ -45,10 +45,12 @@ body {
   font-weight: 200;
 }
 
+
 .profile-img img {
-  text-align: center;
+  width:auto;
+  display: block;
+  margin: 0 auto;
   border-radius: 100%;
-  border:solid #ffffff 5px;
 }
 
 .top-bg img {
